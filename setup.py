@@ -37,7 +37,6 @@ setup(
     ],
     cmdclass={"build_py": build_py},
     install_requires=["pycouchdb"],
-
     test_suite='test',
     tests_require=['mock', 'nose', 'responses'],
 )
